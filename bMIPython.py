@@ -4,11 +4,12 @@
 
 # The BMI is calculated by dividing a person's weight (in kg) by the square of their height (in m):
 
-import math
+# import math
 
 height = float(input("enter your height in m: "))
 weight = int(input("enter your weight in kg: "))
 
 bmi = weight / (height ** 2)
 
-print(math.floor(bmi))
+# print(math.floor(bmi))
+print(round(bmi))
